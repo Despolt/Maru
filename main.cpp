@@ -1,6 +1,8 @@
+#include "Server/Include/MaruMemMacro.h"
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    auto memObject = MaruMemMacro::NewObject<int>(3);
+    std::cout << *memObject << std::endl;
     return 0;
 }
