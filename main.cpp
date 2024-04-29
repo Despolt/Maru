@@ -1,4 +1,4 @@
-#include "Server/Include/MaruMemMacro.h"
+#include "MaruMemMacro.h"
 #include <iostream>
 
 int main() {
